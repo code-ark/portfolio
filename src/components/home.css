@@ -1,0 +1,44 @@
+.wrapper {
+  width: 100vw;
+  overflow: hidden; /* will contain if #first is longer than #second */
+}
+
+.left-container {
+  height: 100vh;
+  width: 50vw;
+  background: rgb(254, 206, 46);
+  float: left;
+}
+.right-container {
+  height: 90vh;
+  width: 50vw;
+  background: rgb(255, 255, 255);
+  float: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.hello {
+  font-family: "Montserrat", sans-serif;
+  font-size: 11em;
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  font-weight: bold;
+}
+.intro {
+  display: flex;
+  flex-direction: center;
+  justify-content: center;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-size: 2em;
+}
+.nav-link{
+  display: flex;
+  float: right;
+  color: rgb(254, 206, 46);
+}
